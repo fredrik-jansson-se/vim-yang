@@ -46,6 +46,9 @@ syn keyword yangStatement units uses value when yang-version yin-element
 syn keyword yangOther add current delete deprecated max min not-supported
 syn keyword yangOther obsolete replace system unbounded user
 
+" YANG 1.1
+syn keyword yangType action
+
 " boolean constants (separated from the 'other keywords' for vim syntax purpose)
 syn keyword yangBoolean true false
 
